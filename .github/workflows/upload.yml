@@ -19,8 +19,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
+      - name: Checkout main branch
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: main-branch
+
+      - name: Checkout uploaded branch
+        uses: actions/checkout@v4
+        with:
+          ref: uploaded
+          fetch-depth: 0
+          path: uploaded-branch
 
       - name: Set up Go
         uses: actions/setup-go@v4
@@ -34,7 +44,7 @@ jobs:
       - name: Upload
         id: upload
         run: |
-          jf1 upload data/* --dry-run=${{ github.ref_name != 'main' }}
+          jf1 upload main-branch/data/* --config=uploaded-branch/uploaded.gob --dry-run=${{ github.ref_name != 'main' }}
         env:
           JF1_SECRET_TOKEN: ${{ secrets.JF1_SECRET_TOKEN }}
 
@@ -59,6 +69,7 @@ jobs:
         id: commit
         with:
           add: 'uploaded.gob'
+          cwd: uploaded-branch
           author_name: jf1 uploader
           author_email: dataimport@jolpi.ca
           message: "Update uploaded data"
@@ -78,4 +89,4 @@ jobs:
             - type: "section"
               text:
                 type: "mrkdwn"
-                text: "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}| ${{ steps.commit.outputs.commit_title }}>"
+                text: "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}| ${{ steps.commit.outputs.commit_title }} >"
