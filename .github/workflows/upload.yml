@@ -19,8 +19,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
+      - name: Checkout main branch
         uses: actions/checkout@v4
+
+      - name: Checkout uploaded branch
+        uses: actions/checkout@v4
+        with:
+          ref: uploaded
+          fetch-depth: 0
+          path: uploaded-branch
 
       - name: Set up Go
         uses: actions/setup-go@v4
@@ -59,6 +66,7 @@ jobs:
         id: commit
         with:
           add: 'uploaded.gob'
+          cwd: uploaded-branch
           author_name: jf1 uploader
           author_email: dataimport@jolpi.ca
           message: "Update uploaded data"
@@ -78,4 +86,4 @@ jobs:
             - type: "section"
               text:
                 type: "mrkdwn"
-                text: "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}| ${{ steps.commit.outputs.commit_title }}>"
+                text: "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}| ${{ steps.commit.outputs.commit_title }} >"
