@@ -21,9 +21,6 @@ jobs:
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          path: main-branch
 
       - name: Checkout uploaded branch
         uses: actions/checkout@v4
@@ -44,7 +41,7 @@ jobs:
       - name: Upload
         id: upload
         run: |
-          jf1 upload main-branch/data/* --config=uploaded-branch/uploaded.gob --dry-run=${{ github.ref_name != 'main' }}
+          jf1 upload data/* --dry-run=${{ github.ref_name != 'main' }}
         env:
           JF1_SECRET_TOKEN: ${{ secrets.JF1_SECRET_TOKEN }}
 
