@@ -46,7 +46,7 @@ jobs:
           JF1_SECRET_TOKEN: ${{ secrets.JF1_SECRET_TOKEN }}
 
       - name: Notify Slack on Upload Failure  
-        if: failure() && steps.upload.conclusion == 'failure'
+        if: failure() && steps.upload.conclusion == 'failure' && github.ref_name == 'main'
         uses: slackapi/slack-github-action@v2.1.0
         with:
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
