@@ -1,0 +1,2042 @@
+[
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 1,
+        "name": "Australian Grand Prix",
+        "date": "2026-03-08",
+        "race_number": 1150,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 1
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-03-06T01:30:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-03-06T05:00:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-03-07T01:30:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-03-07T05:00:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-03-07T05:00:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-03-07T05:00:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-03-08T04:00:00Z",
+        "has_time_data": true,
+        "timezone": "Australia/Melbourne",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 2,
+        "name": "Chinese Grand Prix",
+        "date": "2026-03-15",
+        "race_number": 1151,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 2
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-03-13T03:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "SQ1",
+        "timestamp": "2026-03-13T07:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "SQ2",
+        "timestamp": "2026-03-13T07:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "SQ3",
+        "timestamp": "2026-03-13T07:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "SR",
+        "timestamp": "2026-03-14T03:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q1",
+        "timestamp": "2026-03-14T07:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "Q2",
+        "timestamp": "2026-03-14T07:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 8,
+        "type": "Q3",
+        "timestamp": "2026-03-14T07:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      },
+      {
+        "number": 9,
+        "type": "R",
+        "timestamp": "2026-03-15T07:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Shanghai",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 3,
+        "name": "Japanese Grand Prix",
+        "date": "2026-03-29",
+        "race_number": 1152,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 3
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-03-27T02:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-03-27T06:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-03-28T02:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-03-28T06:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-03-28T06:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-03-28T06:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-03-29T05:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Tokyo",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 4,
+        "name": "Bahrain Grand Prix",
+        "date": "2026-04-12",
+        "race_number": 1153,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 4
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-04-10T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-04-10T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-04-11T12:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-04-11T16:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-04-11T16:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-04-11T16:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-04-12T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Bahrain",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 5,
+        "name": "Saudi Arabian Grand Prix",
+        "date": "2026-04-19",
+        "race_number": 1154,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Saudi_Arabian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 5
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-04-17T13:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-04-17T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-04-18T13:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-04-18T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-04-18T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-04-18T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-04-19T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Riyadh",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 6,
+        "name": "Miami Grand Prix",
+        "date": "2026-05-03",
+        "race_number": 1155,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 6
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-05-01T16:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "SQ1",
+        "timestamp": "2026-05-01T20:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "SQ2",
+        "timestamp": "2026-05-01T20:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "SQ3",
+        "timestamp": "2026-05-01T20:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "SR",
+        "timestamp": "2026-05-02T16:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q1",
+        "timestamp": "2026-05-02T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "Q2",
+        "timestamp": "2026-05-02T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 8,
+        "type": "Q3",
+        "timestamp": "2026-05-02T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      },
+      {
+        "number": 9,
+        "type": "R",
+        "timestamp": "2026-05-03T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/New_York",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 7,
+        "name": "Canadian Grand Prix",
+        "date": "2026-05-24",
+        "race_number": 1156,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 7
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-05-22T16:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "SQ1",
+        "timestamp": "2026-05-22T20:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "SQ2",
+        "timestamp": "2026-05-22T20:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "SQ3",
+        "timestamp": "2026-05-22T20:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "SR",
+        "timestamp": "2026-05-23T16:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q1",
+        "timestamp": "2026-05-23T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "Q2",
+        "timestamp": "2026-05-23T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 8,
+        "type": "Q3",
+        "timestamp": "2026-05-23T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      },
+      {
+        "number": 9,
+        "type": "R",
+        "timestamp": "2026-05-24T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Montreal",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 8,
+        "name": "Monaco Grand Prix",
+        "date": "2026-06-07",
+        "race_number": 1157,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 8
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-06-05T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-06-05T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-06-06T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-06-06T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-06-06T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-06-06T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-06-07T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Monaco",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 9,
+        "name": "Barcelona-Catalunya",
+        "date": "2026-06-14",
+        "race_number": 1158,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 9
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-06-12T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-06-12T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-06-13T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-06-13T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-06-13T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-06-13T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-06-14T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 10,
+        "name": "Austrian Grand Prix",
+        "date": "2026-06-28",
+        "race_number": 1159,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 10
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-06-26T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-06-26T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-06-27T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-06-27T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-06-27T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-06-27T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-06-28T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Vienna",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 11,
+        "name": "British Grand Prix",
+        "date": "2026-07-05",
+        "race_number": 1160,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 11
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-07-03T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "SQ1",
+        "timestamp": "2026-07-03T15:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "SQ2",
+        "timestamp": "2026-07-03T15:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "SQ3",
+        "timestamp": "2026-07-03T15:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "SR",
+        "timestamp": "2026-07-04T11:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q1",
+        "timestamp": "2026-07-04T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "Q2",
+        "timestamp": "2026-07-04T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 8,
+        "type": "Q3",
+        "timestamp": "2026-07-04T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      },
+      {
+        "number": 9,
+        "type": "R",
+        "timestamp": "2026-07-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/London",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 12,
+        "name": "Belgian Grand Prix",
+        "date": "2026-07-19",
+        "race_number": 1161,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 12
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-07-17T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-07-17T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-07-18T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-07-18T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-07-18T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-07-18T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-07-19T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Brussels",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 13,
+        "name": "Hungarian Grand Prix",
+        "date": "2026-07-26",
+        "race_number": 1162,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 13
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-07-24T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-07-24T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-07-25T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-07-25T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-07-25T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-07-25T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-07-26T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Budapest",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 14,
+        "name": "Dutch Grand Prix",
+        "date": "2026-08-23",
+        "race_number": 1163,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 14
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-08-21T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "SQ1",
+        "timestamp": "2026-08-21T14:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "SQ2",
+        "timestamp": "2026-08-21T14:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "SQ3",
+        "timestamp": "2026-08-21T14:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "SR",
+        "timestamp": "2026-08-22T10:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q1",
+        "timestamp": "2026-08-22T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "Q2",
+        "timestamp": "2026-08-22T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 8,
+        "type": "Q3",
+        "timestamp": "2026-08-22T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      },
+      {
+        "number": 9,
+        "type": "R",
+        "timestamp": "2026-08-23T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Amsterdam",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 15,
+        "name": "Italian Grand Prix",
+        "date": "2026-09-06",
+        "race_number": 1164,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 15
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-09-04T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-09-04T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-09-05T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-09-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-09-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-09-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-09-06T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Rome",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 16,
+        "name": "Spanish Grand Prix",
+        "date": "2026-09-13",
+        "race_number": 1165,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 16
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-09-11T11:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-09-11T15:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-09-12T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-09-12T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-09-12T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-09-12T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-09-13T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Europe/Madrid",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 17,
+        "name": "Azerbaijan Grand Prix",
+        "date": "2026-09-26",
+        "race_number": 1166,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 17
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-09-24T08:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-09-24T12:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-09-25T08:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-09-25T12:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-09-25T12:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-09-25T12:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-09-26T11:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Baku",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 18,
+        "name": "Singapore Grand Prix",
+        "date": "2026-10-11",
+        "race_number": 1167,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 18
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-10-09T09:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "SQ1",
+        "timestamp": "2026-10-09T12:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "SQ2",
+        "timestamp": "2026-10-09T12:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "SQ3",
+        "timestamp": "2026-10-09T12:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "SR",
+        "timestamp": "2026-10-10T09:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q1",
+        "timestamp": "2026-10-10T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "Q2",
+        "timestamp": "2026-10-10T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 8,
+        "type": "Q3",
+        "timestamp": "2026-10-10T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      },
+      {
+        "number": 9,
+        "type": "R",
+        "timestamp": "2026-10-11T12:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Singapore",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 19,
+        "name": "United States Grand Prix",
+        "date": "2026-10-25",
+        "race_number": 1168,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 19
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-10-23T17:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-10-23T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-10-24T17:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-10-24T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-10-24T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-10-24T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-10-25T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Chicago",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 20,
+        "name": "Mexico City Grand Prix",
+        "date": "2026-11-01",
+        "race_number": 1169,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 20
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-10-30T18:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-10-30T22:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-10-31T17:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-10-31T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-10-31T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-10-31T21:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-11-01T20:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Mexico_City",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 21,
+        "name": "Brazilian Grand Prix",
+        "date": "2026-11-08",
+        "race_number": 1170,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 21
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-11-06T15:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-11-06T19:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-11-07T14:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-11-07T18:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-11-07T18:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-11-07T18:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-11-08T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Sao_Paulo",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 22,
+        "name": "Las Vegas Grand Prix",
+        "date": "2026-11-22",
+        "race_number": 1171,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 22
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-11-20T00:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-11-20T04:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-11-21T00:30:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-11-21T04:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-11-21T04:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-11-21T04:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-11-22T04:00:00Z",
+        "has_time_data": true,
+        "timezone": "America/Los_Angeles",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 23,
+        "name": "Qatar Grand Prix",
+        "date": "2026-11-29",
+        "race_number": 1172,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 23
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-11-27T13:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-11-27T17:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-11-28T14:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-11-28T18:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-11-28T18:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-11-28T18:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-11-29T16:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Qatar",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Round",
+    "foreign_keys": {
+      "year": 2026
+    },
+    "objects": [
+      {
+        "number": 24,
+        "name": "Abu Dhabi Grand Prix",
+        "date": "2026-12-06",
+        "race_number": 1173,
+        "wikipedia": "https://en.wikipedia.org/wiki/2026_Abu_Dhabi_Grand_Prix",
+        "is_cancelled": false
+      }
+    ]
+  },
+  {
+    "object_type": "Session",
+    "foreign_keys": {
+      "year": 2026,
+      "round": 24
+    },
+    "objects": [
+      {
+        "number": 1,
+        "type": "FP1",
+        "timestamp": "2026-12-04T09:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      },
+      {
+        "number": 2,
+        "type": "FP2",
+        "timestamp": "2026-12-04T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      },
+      {
+        "number": 3,
+        "type": "FP3",
+        "timestamp": "2026-12-05T10:30:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      },
+      {
+        "number": 4,
+        "type": "Q1",
+        "timestamp": "2026-12-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      },
+      {
+        "number": 5,
+        "type": "Q2",
+        "timestamp": "2026-12-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      },
+      {
+        "number": 6,
+        "type": "Q3",
+        "timestamp": "2026-12-05T14:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      },
+      {
+        "number": 7,
+        "type": "R",
+        "timestamp": "2026-12-06T13:00:00Z",
+        "has_time_data": true,
+        "timezone": "Asia/Dubai",
+        "is_cancelled": false
+      }
+    ]
+  }
+]
