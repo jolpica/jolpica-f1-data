@@ -4,42 +4,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 9
-        },
-        "objects": [
-            {
-                "position": 1,
-                "time": "1:25.068"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 9
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 85068
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 1
         },
         "objects": [
@@ -54,7 +20,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 1
         },
         "objects": [
@@ -74,7 +41,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 6
         },
         "objects": [
@@ -89,7 +57,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 6
         },
         "objects": [
@@ -109,117 +78,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 29
-        },
-        "objects": [
-            {
-                "position": 2,
-                "time": "1:25.356"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 29
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 85356
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 30
-        },
-        "objects": [
-            {
-                "position": 3,
-                "time": "1:27.309"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 30
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 87309
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 5
-        },
-        "objects": [
-            {
-                "position": 3,
-                "time": "1:19.948"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 5
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 79948
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 2
         },
         "objects": [
             {
-                "position": 4,
+                "position": 3,
                 "time": "1:20.145"
             }
         ]
@@ -229,7 +94,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 2
         },
         "objects": [
@@ -249,13 +115,14 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 14
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 5
         },
         "objects": [
             {
                 "position": 4,
-                "time": "1:29.562"
+                "time": "1:20.157"
             }
         ]
     },
@@ -264,15 +131,16 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 14
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 5
         },
         "objects": [
             {
                 "number": null,
                 "time": {
                     "_type": "timedelta",
-                    "milliseconds": 89562
+                    "milliseconds": 80157
                 },
                 "is_deleted": false,
                 "is_entry_fastest_lap": true
@@ -284,42 +152,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 34
-        },
-        "objects": [
-            {
-                "position": 5,
-                "time": "1:43.557"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 34
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 103557
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 19
         },
         "objects": [
@@ -334,7 +168,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 19
         },
         "objects": [
@@ -354,7 +189,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 12
         },
         "objects": [
@@ -369,7 +205,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 12
         },
         "objects": [
@@ -389,47 +226,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 20
-        },
-        "objects": [
-            {
-                "position": 7,
-                "time": "1:21.738"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 20
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 81738
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 27
         },
         "objects": [
             {
-                "position": 8,
+                "position": 7,
                 "time": "1:21.777"
             }
         ]
@@ -439,7 +242,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 27
         },
         "objects": [
@@ -459,12 +263,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 28
         },
         "objects": [
             {
-                "position": 9,
+                "position": 8,
                 "time": "1:22.297"
             }
         ]
@@ -474,7 +279,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 28
         },
         "objects": [
@@ -494,12 +300,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 11
         },
         "objects": [
             {
-                "position": 10,
+                "position": 9,
                 "time": "1:22.360"
             }
         ]
@@ -509,7 +316,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 11
         },
         "objects": [
@@ -529,13 +337,14 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 16
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 20
         },
         "objects": [
             {
-                "position": 12,
-                "time": "1:22.566"
+                "position": 10,
+                "time": "1:22.408"
             }
         ]
     },
@@ -544,15 +353,16 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 16
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 20
         },
         "objects": [
             {
                 "number": null,
                 "time": {
                     "_type": "timedelta",
-                    "milliseconds": 82566
+                    "milliseconds": 82408
                 },
                 "is_deleted": false,
                 "is_entry_fastest_lap": true
@@ -564,12 +374,50 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "position": 11,
+                "time": "1:22.510"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 82510
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
             "car_number": 24
         },
         "objects": [
             {
-                "position": 13,
+                "position": 12,
                 "time": "1:22.594"
             }
         ]
@@ -579,7 +427,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 24
         },
         "objects": [
@@ -599,12 +448,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 4
         },
         "objects": [
             {
-                "position": 14,
+                "position": 13,
                 "time": "1:22.635"
             }
         ]
@@ -614,7 +464,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 4
         },
         "objects": [
@@ -634,13 +485,14 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 22
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 16
         },
         "objects": [
             {
-                "position": 15,
-                "time": "1:22.850"
+                "position": 14,
+                "time": "1:22.778"
             }
         ]
     },
@@ -649,15 +501,16 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 22
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 16
         },
         "objects": [
             {
                 "number": null,
                 "time": {
                     "_type": "timedelta",
-                    "milliseconds": 82850
+                    "milliseconds": 82778
                 },
                 "is_deleted": false,
                 "is_entry_fastest_lap": true
@@ -669,12 +522,50 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "position": 15,
+                "time": "1:22.878"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 82878
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
             "car_number": 32
         },
         "objects": [
             {
-                "position": 17,
+                "position": 16,
                 "time": "1:23.023"
             }
         ]
@@ -684,7 +575,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 32
         },
         "objects": [
@@ -704,13 +596,51 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 15
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "position": 17,
+                "time": "1:23.410"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83410
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 25
         },
         "objects": [
             {
                 "position": 18,
-                "time": "1:23.063"
+                "time": "1:23.425"
             }
         ]
     },
@@ -719,77 +649,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 15
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 83063
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 17
-        },
-        "objects": [
-            {
-                "position": 20,
-                "time": "1:23.189"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 17
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 83189
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 25
-        },
-        "objects": [
-            {
-                "position": 21,
-                "time": "1:23.203"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 25
         },
         "objects": [
@@ -797,7 +658,7 @@
                 "number": null,
                 "time": {
                     "_type": "timedelta",
-                    "milliseconds": 83203
+                    "milliseconds": 83425
                 },
                 "is_deleted": false,
                 "is_entry_fastest_lap": true
@@ -809,82 +670,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 26
-        },
-        "objects": [
-            {
-                "position": 22,
-                "time": "1:23.212"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 26
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 83212
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 21
-        },
-        "objects": [
-            {
-                "position": 23,
-                "time": "1:23.249"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 21
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 83249
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 33
         },
         "objects": [
             {
-                "position": 24,
+                "position": 19,
                 "time": "1:23.431"
             }
         ]
@@ -894,7 +686,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 33
         },
         "objects": [
@@ -914,47 +707,13 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
-            "car_number": 23
-        },
-        "objects": [
-            {
-                "position": 25,
-                "time": "1:23.433"
-            }
-        ]
-    },
-    {
-        "object_type": "lap",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
-            "car_number": 23
-        },
-        "objects": [
-            {
-                "number": null,
-                "time": {
-                    "_type": "timedelta",
-                    "milliseconds": 83433
-                },
-                "is_deleted": false,
-                "is_entry_fastest_lap": true
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1992,
-            "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 3
         },
         "objects": [
             {
-                "position": 26,
+                "position": 20,
                 "time": "1:23.469"
             }
         ]
@@ -964,7 +723,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
             "car_number": 3
         },
         "objects": [
@@ -984,12 +744,1160 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "position": 21,
+                "time": "1:23.537"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83537
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "position": 22,
+                "time": "1:23.759"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83759
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "position": 23,
+                "time": "1:23.793"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83793
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
             "car_number": 10
         },
         "objects": [
             {
+                "position": 24,
+                "time": "1:23.958"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 10
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83958
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "position": 25,
+                "time": "1:24.144"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 84144
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "position": 26,
+                "time": "1:24.281"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 84281
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 17
+        },
+        "objects": [
+            {
                 "position": 27,
+                "time": "1:24.852"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 84852
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 7
+        },
+        "objects": [
+            {
+                "position": 28,
+                "time": "1:24.858"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 7
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 84858
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "position": 29,
+                "time": "1:25.044"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 85044
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 8
+        },
+        "objects": [
+            {
+                "position": 30,
+                "time": "1:26.641"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 8
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 86641
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 5
+        },
+        "objects": [
+            {
+                "position": 1,
+                "time": "1:19.948"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 5
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 79948
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 1
+        },
+        "objects": [
+            {
+                "position": 2,
+                "time": "1:20.590"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 1
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80590
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 2
+        },
+        "objects": [
+            {
+                "position": 3,
+                "time": "1:21.038"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 2
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 81038
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 19
+        },
+        "objects": [
+            {
+                "position": 4,
+                "time": "1:21.045"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 19
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 81045
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 6
+        },
+        "objects": [
+            {
+                "position": 5,
+                "time": "1:21.075"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 6
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 81075
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 20
+        },
+        "objects": [
+            {
+                "position": 6,
+                "time": "1:21.738"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 20
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 81738
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 27
+        },
+        "objects": [
+            {
+                "position": 7,
+                "time": "1:22.033"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 27
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 82033
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 16
+        },
+        "objects": [
+            {
+                "position": 8,
+                "time": "1:22.566"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 16
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 82566
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 11
+        },
+        "objects": [
+            {
+                "position": 9,
+                "time": "1:22.787"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 11
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 82787
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "position": 10,
+                "time": "1:22.850"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 82850
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "position": 11,
+                "time": "1:23.022"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83022
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 24
+        },
+        "objects": [
+            {
+                "position": 12,
+                "time": "1:23.028"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 24
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83028
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 12
+        },
+        "objects": [
+            {
+                "position": 13,
+                "time": "1:23.043"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 12
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83043
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "position": 14,
+                "time": "1:23.063"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83063
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "position": 15,
+                "time": "1:23.138"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83138
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "position": 16,
+                "time": "1:23.189"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83189
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 25
+        },
+        "objects": [
+            {
+                "position": 17,
+                "time": "1:23.203"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 25
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83203
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "position": 18,
+                "time": "1:23.212"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83212
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "position": 19,
+                "time": "1:23.249"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83249
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "position": 20,
+                "time": "1:23.433"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83433
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 32
+        },
+        "objects": [
+            {
+                "position": 21,
+                "time": "1:23.572"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 32
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83572
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 10
+        },
+        "objects": [
+            {
+                "position": 22,
                 "time": "1:23.721"
             }
         ]
@@ -999,7 +1907,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 2,
             "car_number": 10
         },
         "objects": [
@@ -1019,12 +1928,87 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 4
+        },
+        "objects": [
+            {
+                "position": 23,
+                "time": "1:23.948"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 4
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 83948
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 3
+        },
+        "objects": [
+            {
+                "position": 24,
+                "time": "1:24.060"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 3
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 84060
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
             "car_number": 7
         },
         "objects": [
             {
-                "position": 28,
+                "position": 25,
                 "time": "1:24.499"
             }
         ]
@@ -1034,7 +2018,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 2,
             "car_number": 7
         },
         "objects": [
@@ -1054,12 +2039,87 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 33
+        },
+        "objects": [
+            {
+                "position": 26,
+                "time": "1:24.640"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 33
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 84640
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "position": 27,
+                "time": "1:25.612"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 85612
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
             "car_number": 8
         },
         "objects": [
             {
-                "position": 30,
+                "position": 28,
                 "time": "1:25.812"
             }
         ]
@@ -1069,7 +2129,8 @@
         "foreign_keys": {
             "year": 1992,
             "round": 7,
-            "session": "Q",
+            "session": "QB",
+            "session_number": 2,
             "car_number": 8
         },
         "objects": [
@@ -1078,6 +2139,80 @@
                 "time": {
                     "_type": "timedelta",
                     "milliseconds": 85812
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 28
+        },
+        "objects": [
+            {
+                "position": 29,
+                "time": "1:26.259"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 28
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 86259
+                },
+                "is_deleted": false,
+                "is_entry_fastest_lap": true
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "position": 30,
+                "time": "1:33.438"
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1992,
+            "round": 7,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 93438
                 },
                 "is_deleted": false,
                 "is_entry_fastest_lap": true
