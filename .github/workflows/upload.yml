@@ -19,8 +19,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout main branch
+      - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - name: Checkout uploaded branch
         uses: actions/checkout@v4
@@ -41,12 +43,12 @@ jobs:
       - name: Upload
         id: upload
         run: |
-          jf1 upload data/* --dry-run=${{ github.ref_name != 'main' }}
+          jf1 upload data/* --dry-run=${{ github.event_name != 'push' }}
         env:
           JF1_SECRET_TOKEN: ${{ secrets.JF1_SECRET_TOKEN }}
 
       - name: Notify Slack on Upload Failure  
-        if: failure() && steps.upload.conclusion == 'failure' && github.ref_name == 'main'
+        if: failure() && steps.upload.conclusion == 'failure' && github.event_name == 'push'
         uses: slackapi/slack-github-action@v2.1.0
         with:
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -64,6 +66,7 @@ jobs:
 
       - uses: EndBug/add-and-commit@v9
         id: commit
+        if: github.event_name == 'push'
         with:
           add: 'uploaded.gob'
           cwd: uploaded-branch
