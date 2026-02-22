@@ -4,28 +4,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 14,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 27
         },
         "objects": [
             {
                 "position": 1,
-                "time": "1:19.394"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74246
+                }
             }
         ]
     },
     {
-        "object_type": "SessionEntry",
+        "object_type": "lap",
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 2,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 27
         },
         "objects": [
             {
-                "position": 1,
-                "time": "1:13.557"
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74246
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -34,28 +43,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 1,
-            "session": "QB"
-        },
-        "objects": [
-            {
-                "position": 2,
-                "time": "1:13.595"
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1990,
-            "round": 13,
-            "car_number": 18,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 1
         },
         "objects": [
             {
                 "position": 2,
-                "time": "1:19.885"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74530
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 1
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74530
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -64,28 +82,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 27,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 28
         },
         "objects": [
             {
                 "position": 3,
-                "time": "1:13.601"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74552
+                }
             }
         ]
     },
     {
-        "object_type": "SessionEntry",
+        "object_type": "lap",
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 31,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 28
         },
         "objects": [
             {
-                "position": 3,
-                "time": "1:20.000"
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74552
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -94,28 +121,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 28,
-            "session": "QB"
-        },
-        "objects": [
-            {
-                "position": 4,
-                "time": "1:14.292"
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1990,
-            "round": 13,
-            "car_number": 17,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 2
         },
         "objects": [
             {
                 "position": 4,
-                "time": "1:20.942"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74861
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 2
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74861
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -124,28 +160,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 33,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 6
         },
         "objects": [
             {
                 "position": 5,
-                "time": "1:21.188"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75539
+                }
             }
         ]
     },
     {
-        "object_type": "SessionEntry",
+        "object_type": "lap",
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 6,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 6
         },
         "objects": [
             {
-                "position": 5,
-                "time": "1:14.723"
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75539
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -154,28 +199,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 20,
-            "session": "QB"
-        },
-        "objects": [
-            {
-                "position": 6,
-                "time": "1:14.728"
-            }
-        ]
-    },
-    {
-        "object_type": "SessionEntry",
-        "foreign_keys": {
-            "year": 1990,
-            "round": 13,
-            "car_number": 34,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 20
         },
         "objects": [
             {
                 "position": 6,
-                "time": "1:23.447"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75542
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 20
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75542
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -184,13 +238,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 5,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 5
         },
         "objects": [
             {
                 "position": 7,
-                "time": "1:14.934"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75646
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 5
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75646
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -199,13 +277,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 4,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 4
         },
         "objects": [
             {
                 "position": 8,
-                "time": "1:15.122"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76092
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 4
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76092
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -214,13 +316,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 19,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 19
         },
         "objects": [
             {
                 "position": 9,
-                "time": "1:15.411"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76123
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 19
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76123
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -229,13 +355,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 29,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 29
         },
         "objects": [
             {
                 "position": 10,
-                "time": "1:15.673"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76477
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76477
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -244,13 +394,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 30,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 23
         },
         "objects": [
             {
                 "position": 11,
-                "time": "1:16.012"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77045
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77045
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -259,13 +433,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 16,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 3
         },
         "objects": [
             {
                 "position": 12,
-                "time": "1:16.284"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77097
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 3
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77097
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -274,13 +472,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 21,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 30
         },
         "objects": [
             {
                 "position": 13,
-                "time": "1:16.290"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77189
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77189
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -289,13 +511,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 15,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 22
         },
         "objects": [
             {
                 "position": 14,
-                "time": "1:16.296"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77252
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77252
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -304,13 +550,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 12,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 26
         },
         "objects": [
             {
                 "position": 15,
-                "time": "1:16.762"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77330
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77330
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -319,13 +589,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 23,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 12
         },
         "objects": [
             {
                 "position": 16,
-                "time": "1:16.795"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77414
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 12
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77414
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -334,13 +628,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 10,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 15
         },
         "objects": [
             {
                 "position": 17,
-                "time": "1:16.946"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77569
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77569
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -349,13 +667,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 22,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 21
         },
         "objects": [
             {
                 "position": 18,
-                "time": "1:17.066"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77653
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77653
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -364,13 +706,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 9,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 11
         },
         "objects": [
             {
                 "position": 19,
-                "time": "1:17.081"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77904
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 11
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77904
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -379,13 +745,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 3,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 8
         },
         "objects": [
             {
                 "position": 20,
-                "time": "1:17.097"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77962
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 8
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77962
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -394,13 +784,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 26,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 16
         },
         "objects": [
             {
                 "position": 21,
-                "time": "1:17.120"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78242
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 16
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78242
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -409,13 +823,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 11,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 14
         },
         "objects": [
             {
                 "position": 22,
-                "time": "1:17.259"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78512
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78512
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -424,13 +862,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 25,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 18
         },
         "objects": [
             {
                 "position": 23,
-                "time": "1:17.269"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78581
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 18
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78581
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -439,13 +901,37 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 8,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 9
         },
         "objects": [
             {
                 "position": 24,
-                "time": "1:17.341"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78630
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78630
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -454,13 +940,76 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 7,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 24
+        },
+        "objects": [
+            {
+                "position": 25,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78669
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 24
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78669
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 10
         },
         "objects": [
             {
                 "position": 26,
-                "time": "1:17.715"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78725
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 10
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78725
+                },
+                "is_deleted": false
             }
         ]
     },
@@ -469,13 +1018,1285 @@
         "foreign_keys": {
             "year": 1990,
             "round": 13,
-            "car_number": 24,
-            "session": "QB"
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 25
+        },
+        "objects": [
+            {
+                "position": 27,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78958
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 25
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78958
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 7
         },
         "objects": [
             {
                 "position": 28,
-                "time": "1:18.280"
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78967
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 7
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78967
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "position": 29,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80226
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80226
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 31
+        },
+        "objects": [
+            {
+                "position": 30,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80662
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 1,
+            "car_number": 31
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80662
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 2
+        },
+        "objects": [
+            {
+                "position": 1,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 73557
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 2
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 73557
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 1
+        },
+        "objects": [
+            {
+                "position": 2,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 73595
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 1
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 73595
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 27
+        },
+        "objects": [
+            {
+                "position": 3,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 73601
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 27
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 73601
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 28
+        },
+        "objects": [
+            {
+                "position": 4,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74292
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 28
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74292
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 6
+        },
+        "objects": [
+            {
+                "position": 5,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74723
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 6
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74723
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 20
+        },
+        "objects": [
+            {
+                "position": 6,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74728
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 20
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74728
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 5
+        },
+        "objects": [
+            {
+                "position": 7,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74934
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 5
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 74934
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 4
+        },
+        "objects": [
+            {
+                "position": 8,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75122
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 4
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75122
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 19
+        },
+        "objects": [
+            {
+                "position": 9,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75411
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 19
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75411
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "position": 10,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75673
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 29
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 75673
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "position": 11,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76012
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 30
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76012
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 16
+        },
+        "objects": [
+            {
+                "position": 12,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76284
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 16
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76284
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "position": 13,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76290
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 21
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76290
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "position": 14,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76296
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 15
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76296
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 12
+        },
+        "objects": [
+            {
+                "position": 15,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76762
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 12
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76762
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "position": 16,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76795
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 23
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76795
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 10
+        },
+        "objects": [
+            {
+                "position": 17,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76946
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 10
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 76946
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "position": 18,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77066
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 22
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77066
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "position": 19,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77081
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 9
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77081
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "position": 20,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77120
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 26
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77120
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 11
+        },
+        "objects": [
+            {
+                "position": 21,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77259
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 11
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77259
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 25
+        },
+        "objects": [
+            {
+                "position": 22,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77269
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 25
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77269
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 8
+        },
+        "objects": [
+            {
+                "position": 23,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77341
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 8
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77341
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 18
+        },
+        "objects": [
+            {
+                "position": 24,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77621
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 18
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77621
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 7
+        },
+        "objects": [
+            {
+                "position": 25,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77715
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 7
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77715
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "position": 26,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77775
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 14
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 77775
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 24
+        },
+        "objects": [
+            {
+                "position": 27,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78280
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 24
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78280
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "position": 28,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78815
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 17
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 78815
+                },
+                "is_deleted": false
+            }
+        ]
+    },
+    {
+        "object_type": "SessionEntry",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 31
+        },
+        "objects": [
+            {
+                "position": 29,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80516
+                }
+            }
+        ]
+    },
+    {
+        "object_type": "lap",
+        "foreign_keys": {
+            "year": 1990,
+            "round": 13,
+            "session": "QB",
+            "session_number": 2,
+            "car_number": 31
+        },
+        "objects": [
+            {
+                "number": null,
+                "time": {
+                    "_type": "timedelta",
+                    "milliseconds": 80516
+                },
+                "is_deleted": false
             }
         ]
     }
