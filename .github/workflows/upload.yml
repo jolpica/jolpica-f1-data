@@ -42,7 +42,7 @@ jobs:
           cache-dependency-path: go.sum
 
       - name: Download dependencies
-        run: go mod download
+        run: go mod download all
 
       - name: Upload
         id: upload
