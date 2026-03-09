@@ -6,11 +6,15 @@ on:
     paths:
       - 'data/**'
       - '.github/workflows/upload.yml'
+      - 'go.mod'
+      - 'go.sum'
   push:
     branches: [main]
     paths:
       - 'data/**'
       - '.github/workflows/upload.yml'
+      - 'go.mod'
+      - 'go.sum'
 
 jobs:
   upload:
@@ -32,18 +36,18 @@ jobs:
           path: uploaded-branch
 
       - name: Set up Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version: '1.24'
+          cache-dependency-path: go.sum
 
-      - name: Install
-        run: |
-          go install github.com/jolpica/jf1@v0.1.3
+      - name: Download dependencies
+        run: go mod download
 
       - name: Upload
         id: upload
         run: |
-          jf1 upload data/* --dry-run=${{ github.event_name != 'push' }}
+          go tool jf1 upload data/* --dry-run=${{ github.event_name != 'push' }}
         env:
           JF1_SECRET_TOKEN: ${{ secrets.JF1_SECRET_TOKEN }}
 
