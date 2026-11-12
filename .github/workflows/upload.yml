@@ -22,11 +22,31 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: read
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          persist-credentials: false
+
+      - name: Checkout PR data
+        if: github.event_name == 'pull_request_target'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr-data
+          sparse-checkout: /data/
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Reject symlinks in PR data
+        if: github.event_name == 'pull_request_target'
+        run: |
+          if [ -n "$(find pr-data/data -type l -print -quit)" ]; then
+            echo 'Symlinks are not allowed in PR data'
+            exit 1
+          fi
 
       - name: Checkout uploaded branch
         uses: actions/checkout@v4
@@ -40,6 +60,7 @@ jobs:
         with:
           go-version: '1.24'
           cache-dependency-path: go.sum
+          cache: ${{ github.event_name == 'push' }}
 
       - name: Download dependencies
         run: go mod download all
@@ -47,8 +68,9 @@ jobs:
       - name: Upload
         id: upload
         run: |
-          go tool jf1 upload data/* --dry-run=${{ github.event_name != 'push' }}
+          go tool jf1 upload "$DATA_DIR"/* --dry-run=${{ github.event_name != 'push' }}
         env:
+          DATA_DIR: ${{ github.event_name == 'pull_request_target' && 'pr-data/data' || 'data' }}
           JF1_SECRET_TOKEN: ${{ secrets.JF1_SECRET_TOKEN }}
 
       - name: Notify Slack on Upload Failure  
